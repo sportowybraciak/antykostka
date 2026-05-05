@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "antykostka",
+  "version": "1.0.0",
+  "name": "Antykostka",
+  "description": "Zapisuje i przywraca stan hotbara jednym klawiszem.",
+  "authors": ["ty"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["pl.antykostka.Antykostka"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21"
+  }
+}
